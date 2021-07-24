@@ -11,7 +11,7 @@ public class SpringDemoApplication {
 
 	@GetMapping("/mymessage")
 	public String getMessage() {
-		return "This is my first message";
+		return "This is my first springboot message from Azure";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDemoApplication.class, args);
